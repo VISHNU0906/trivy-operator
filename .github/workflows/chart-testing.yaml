@@ -4,8 +4,7 @@ on:
   push:
     branches:
       - main
-    paths:
-      - deploy/**
+      - 'ci-3149-*'
   pull_request:
     branches:
       - main

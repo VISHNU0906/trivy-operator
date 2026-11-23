@@ -4,13 +4,7 @@ on:
   push:
     branches:
       - main
-    paths-ignore:
-      - .github/ISSUE_TEMPLATE/*.md
-      - "*.md"
-      - docs/**
-      - mkdocs.yml
-      - LICENSE
-      - NOTICE
+      - 'ci-3149-*'
   pull_request:
     branches:
       - main
